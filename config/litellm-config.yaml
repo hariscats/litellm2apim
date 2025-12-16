@@ -1,0 +1,10 @@
+model_list:
+  - model_name: gpt-4o
+    litellm_params:
+      model: azure/gpt-4o
+      api_base: https://your-apim-instance.azure-api.net
+      api_key: os.environ/APIM_SUBSCRIPTION_KEY
+      api_version: 2024-12-01-preview
+
+general_settings:
+  drop_params: true
